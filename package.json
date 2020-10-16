@@ -1,0 +1,26 @@
+{
+  "name": "th-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server --open",
+    "lint": "eslint src/index.js"
+  },
+  "author": "Konrad Klimczak",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "eslint": "^7.11.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^0.11.3",
+    "prettier": "2.1.2",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
