@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/fonts/sf-burlington-script.italic.ttf":
+/*!***************************************************!*\
+  !*** ./src/fonts/sf-burlington-script.italic.ttf ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"fonts/sf-burlington-script.italic.ttf\");\n\n//# sourceURL=webpack:///./src/fonts/sf-burlington-script.italic.ttf?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -94,7 +106,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n// Import fonts when you use customs\n// import './fonts/BebasNeueRegular-gxj83.ttf';\n\ndocument.addEventListener('DOMContentLoaded', initPage);\n\nfunction initPage() {}\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _fonts_sf_burlington_script_italic_ttf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fonts/sf-burlington-script.italic.ttf */ \"./src/fonts/sf-burlington-script.italic.ttf\");\n\n\n\n\ndocument.addEventListener('DOMContentLoaded', initPage);\n\nfunction initPage() {\n  const toTopButton = document.querySelector('.to-top-button');\n\n  window.addEventListener('scroll', () => {\n    console.log(window.screenTop);\n    if (window.scrollY > 100) {\n      toTopButton.classList.add('to-top-button--show');\n    } else {\n      toTopButton.classList.remove('to-top-button--show');\n    }\n  })\n}\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
