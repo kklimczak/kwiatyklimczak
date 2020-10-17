@@ -4739,6 +4739,15 @@ a, a:visited {
   font-weight: normal;
   margin: 30px;
 }
+.about__description {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.about__image {
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 3px;
+}
 
 .contact {
   background-color: #ddd;
