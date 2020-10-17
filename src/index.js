@@ -1,8 +1,18 @@
 import './styles.scss';
 
-// Import fonts when you use customs
-// import './fonts/BebasNeueRegular-gxj83.ttf';
+import './fonts/sf-burlington-script.italic.ttf';
 
 document.addEventListener('DOMContentLoaded', initPage);
 
-function initPage() {}
+function initPage() {
+  const toTopButton = document.querySelector('.to-top-button');
+
+  window.addEventListener('scroll', () => {
+    console.log(window.screenTop);
+    if (window.scrollY > 100) {
+      toTopButton.classList.add('to-top-button--show');
+    } else {
+      toTopButton.classList.remove('to-top-button--show');
+    }
+  })
+}
